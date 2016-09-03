@@ -1,0 +1,21 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended"],
+    "plugins": ["node"],
+    "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "eqeqeq": ["error", "always"],
+        "no-sequences": ["error"],
+        "consistent-return": ["error"],
+        "strict": ["error", "global"],
+        "no-var": ["error"],
+        "prefer-const": ["error"],
+        "node/no-missing-require": ["error"]
+    }
+}
