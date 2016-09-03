@@ -24,6 +24,8 @@
   "homepage": "https://github.com/tsholmes/automoton.js#readme",
   "devDependencies": {
     "eslint": "^3.4.0",
-    "eslint-plugin-node": "^2.0.0"
+    "eslint-plugin-node": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
   }
 }
