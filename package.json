@@ -1,0 +1,25 @@
+{
+  "name": "automoton.js",
+  "version": "0.0.1",
+  "description": "NFA/DFA based regular expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsholmes/automoton.js.git"
+  },
+  "keywords": [
+    "automoton"
+  ],
+  "author": {
+    "name": "Tom Holmes",
+    "email": "tholmes150@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsholmes/automoton.js/issues"
+  },
+  "homepage": "https://github.com/tsholmes/automoton.js#readme"
+}
