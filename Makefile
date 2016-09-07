@@ -11,3 +11,7 @@ install: node_modules
 test: install
 	@$(istanbul) cover --print both $(mocha) -- $(wildcard test/*.test.js)
 .PHONY: test
+
+# since istanbul clobbers line numbers
+test-no-cover: install
+	@$(mocha) -- $(wildcard test/*.test.js)
